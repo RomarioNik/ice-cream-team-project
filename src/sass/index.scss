@@ -1,2 +1,26 @@
-@import './common';
-@import './example';
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@import './base/variables';
+@import './utils/mixins';
+@import './base/reset';
+@import './base/base';
+
+// header
+@import './layout/header';
+
+// sections
+@import './component/section-banner';
+@import './component/section-products';
+
+// components
+@import './component/logo';
+@import './component/menu';
+
+// forms
+
+// modals
+
+// footer
+@import './layout/footer';
+
+// visually-hidden
+@import './component/visually-hidden';
